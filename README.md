@@ -1,4 +1,4 @@
-# Fundamentals of Probability Theory [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/####-NAME)
+# Fundamentals of Probability Theory [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/100546-probability-theory)
 **Curriculum Module**  
 _Created with R2021a. Compatible with R2021a and later releases._  
 
@@ -68,6 +68,9 @@ The license for this module is available in the LICENSE.TXT file in this GitHub 
 
 Have any questions or feedback? Contact the [MathWorks online teaching team](mailto:onlineteaching@mathworks.com).
 
+## ##
+Authored by: Pooja Lalan  
+    Maintained by: Emma Smith Zbarsky
 ## ##
 
 _Copyright 2021 The MathWorks, Inc._
