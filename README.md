@@ -1,16 +1,25 @@
-# Fundamentals of Probability Theory [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/100546-probability-theory)
+# Fundamentals of Probability Theory [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/100546-probability-theory) or [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj)
 **Curriculum Module**  
 _Created with R2021a. Compatible with R2021a and later releases._  
 
 ## Description ##
-This package contains _[live scripts](https://www.mathworks.com/products/matlab/live-editor.html)_ and supporting files to teach the fundamental concepts in probability theory and statistical inference. These materials are designed to be flexible and can be easily modified to accommodate a variety of teaching and learning methods. Used in a sequence, the live scripts progressively add depth to the topic. However, each script or section can be easily adapted for standalone use. The live scripts include a brief background, interactive illustrations, tasks, reflection questions, and application examples. 
+This package contains _[live scripts](https://www.mathworks.com/products/matlab/live-editor.html)_ and supporting files to teach the 
+fundamental concepts in probability theory and statistical inference. These materials are designed to be flexible and can be easily 
+modified to accommodate a variety of teaching and learning methods. Used in a sequence, the live scripts progressively add depth to 
+the topic. However, each script or section can be easily adapted for standalone use. The live scripts include a brief background, 
+interactive illustrations, tasks, reflection questions, and application examples. 
 
-This module can be used as part of a lecture, as activities in an instructional setting, or as interactive assignments to be completed outside of class. The live script sections contains direct instructions or tasks to illustrate the basics and additional reflection questions that are more open-ended.
+This module can be used as part of a lecture, as activities in an instructional setting, or as interactive assignments to be completed 
+outside of class. The live script sections contains direct instructions or tasks to illustrate the basics and additional reflection 
+questions that are more open-ended.
 
-Get started with each live script by running it one section at a time. To stop running the script or a section midway (for example, when an animation is in progress), use the **Stop** button in the **Run** section of the **Live Editor** tab in the MATLAB toolstrip.
+Get started with each live script by running it one section at a time. To stop running the script or a section midway (for example, 
+when an animation is in progress), use the **Stop** button in the **Run** section of the **Live Editor** tab in the MATLAB toolstrip.
 
 ## Prerequisite Domain Knowledge ##
-This module assumes a knowledge of basic concepts in set theory, such as ⋃ (union) and ⋂ (intersection). It also assumes basic fluency in mathematical notation for Σ (summation) and Π (product). Other notation relevant to probability theory is introduced within the module as needed.
+This module assumes a knowledge of basic concepts in set theory, such as ⋃ (union) and ⋂ (intersection). It also assumes basic 
+fluency in mathematical notation for Σ (summation) and Π (product). Other notation relevant to probability theory is introduced 
+within the module as needed.
 
 ## Suggested Prework ## 
 [MATLAB Onramp](https://www.mathworks.com/learn/tutorials/matlab-onramp.html) – a free two-hour introductory tutorial to learn the essentials of MATLAB®.  
@@ -18,7 +27,7 @@ This module assumes a knowledge of basic concepts in set theory, such as ⋃ (un
 
 ## Details ##  
 
-**`probabilityIntro.mlx`**   
+**`probabilityIntro.mlx`** [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=probabilityIntro.mlx)
 **Learning Goals**  
 - Explain the commonly used terms in probability such as random experiment, random process, trial, event, outcome, countable, equally likely, sample space, mutual independence.  
 - Define and compute classical probability of events.  
@@ -30,7 +39,7 @@ This module assumes a knowledge of basic concepts in set theory, such as ⋃ (un
 
 ## ##
 
-**`randomVariables.mlx`, `randomVariableApp.mlapp`**  
+**`randomVariables.mlx`, `randomVariableApp.mlapp`** [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=randomVariables.mlx)  
 **Learning Goals**  
 - Define and create random variables to describe random processes.  
 - Generate an empirical distribution of random variables through random sampling.  
@@ -44,7 +53,7 @@ This module assumes a knowledge of basic concepts in set theory, such as ⋃ (un
 <img height="400" alt="central limit theorem" src="https://user-images.githubusercontent.com/81376570/134528844-44efc801-83b8-446e-ba9d-5091fbf411ab.gif">    
 
 ## ##
-**`inferenceBayes.mlx`**   
+**`inferenceBayes.mlx`** [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=inferenceBayes.mlx)   
 **Learning Goals**  
 - Define conditional probability, and explain how it affects the sample space.   
     <img height="600" alt="conditional probability" src="https://user-images.githubusercontent.com/81376570/134539490-24e6a992-f46c-4f78-b0e3-ac867d5304f8.png">   
