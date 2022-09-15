@@ -1,4 +1,7 @@
-# Fundamentals of Probability Theory [![View <File Exchange Title> on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/100546-probability-theory) or [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj)
+# Fundamentals of Probability Theory 
+[![View Fundamentals of Probability Theory on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/100546-probability-theory) 
+or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj)
+
 **Curriculum Module**  
 _Created with R2021a. Compatible with R2021a and later releases._  
 
@@ -27,7 +30,7 @@ within the module as needed.
 
 ## Details ##  
 
-**`probabilityIntro.mlx`** [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=probabilityIntro.mlx)
+**`probabilityIntro.mlx`** [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=probabilityIntro.mlx)
 **Learning Goals**  
 - Explain the commonly used terms in probability such as random experiment, random process, trial, event, outcome, countable, equally likely, sample space, mutual independence.  
 - Define and compute classical probability of events.  
@@ -39,7 +42,7 @@ within the module as needed.
 
 ## ##
 
-**`randomVariables.mlx`, `randomVariableApp.mlapp`** [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=randomVariables.mlx)  
+**`randomVariables.mlx`, `randomVariableApp.mlapp`** [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=randomVariables.mlx)  
 **Learning Goals**  
 - Define and create random variables to describe random processes.  
 - Generate an empirical distribution of random variables through random sampling.  
@@ -53,7 +56,7 @@ within the module as needed.
 <img height="400" alt="central limit theorem" src="https://user-images.githubusercontent.com/81376570/134528844-44efc801-83b8-446e-ba9d-5091fbf411ab.gif">    
 
 ## ##
-**`inferenceBayes.mlx`** [Open in MATLAB Online](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=inferenceBayes.mlx)   
+**`inferenceBayes.mlx`** [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=inferenceBayes.mlx)   
 **Learning Goals**  
 - Define conditional probability, and explain how it affects the sample space.   
     <img height="600" alt="conditional probability" src="https://user-images.githubusercontent.com/81376570/134539490-24e6a992-f46c-4f78-b0e3-ac867d5304f8.png">   
@@ -65,7 +68,7 @@ within the module as needed.
 
 
 ## Products ##
-MATLAB, Statistics and Machine Learning Toolbox&trade;, Image Processing Toolbox&trade;
+MATLAB&reg;, Statistics and Machine Learning Toolbox&trade;, Image Processing Toolbox&trade;
 
 ## License ##
 The license for this module is available in the LICENSE.TXT file in this GitHub repository.
