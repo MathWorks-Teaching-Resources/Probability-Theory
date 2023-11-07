@@ -57,7 +57,7 @@ MATLAB® and the Statistics and Machine Learning Toolbox™ are used throughout.
 ## [**ProbabilityIntro.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=ProbabilityIntro.mlx) 
 |  | **In this script, students will...**  |
 | :-- | :-- |
-| <img src="Images/IntroProbIcon.png" width="171" alt="IntroProbIcon.png"> |<br>-  explain the commonly used terms in probability such as random experiment, random process, trial, event, outcome, countable, equally likely, sample space, mutual independence. <br>-  define and compute the classical and empirical probability of events. <br>-  explain the limitations and strengths of the subjective, classical, and empirical perspectives of probability. <br>-  state and apply Kolmogorov's axioms of probability.  |
+| <img src="Images/IntroProbIcon.png" width="270" alt="IntroProbIcon.png"> |<br>-  explain the commonly used terms in probability such as random experiment, random process, trial, event, outcome, countable, equally likely, sample space, mutual independence. <br>-  define and compute the classical and empirical probability of events. <br>-  explain the limitations and strengths of the subjective, classical, and empirical perspectives of probability. <br>-  state and apply Kolmogorov's axioms of probability.  |
 
 ## [**RandomVariables.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=RandomVariables.mlx) 
 |  | **In this script, students will...**  |
@@ -92,4 +92,5 @@ You can find the [license](https://github.com/MathWorks-Teaching-Resources/Proba
 
  *©* Copyright 2023 The MathWorks™, Inc
 
-
+
+
