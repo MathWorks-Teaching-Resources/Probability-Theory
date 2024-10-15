@@ -51,7 +51,7 @@ Ensure you have all the required products (listed below) installed. If you need 
 
 ## Products
 
-MATLAB® and the Statistics and Machine Learning Toolbox™ are used throughout.
+MATLAB® and the Statistics and Machine Learning Toolbox™ are used throughout. The Image Processing Toolbox™ is used in InferenceBayes.mlx.
 
 # Scripts
 ## [**ProbabilityIntro.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=Scripts/ProbabilityIntro.mlx) 
