@@ -4,7 +4,7 @@
 
 [![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/100546-probability-theory) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=README.mlx)
 
-[![MATLAB Versions Tested](https://img.shields.io/endpoint?url=https://mathworks-teaching-resources.github.io/Probability-and-Inference/TestedWith.json)](https://MathWorks-Teaching-Resources.github.io/Probability-and-Inference)
+[![MATLAB Versions Tested](https://img.shields.io/endpoint?url=https://mathworks-teaching-resources.github.io/Probability-Theory/TestedWith.json)](https://MathWorks-Teaching-Resources.github.io/Probability-Theory)
 
 **Curriculum Module**
 
