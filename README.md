@@ -1,8 +1,10 @@
 
 # <span style="color:rgb(213,80,0)">Fundamentals of Probability Theory</span>
 
+MATLAB R2024b or older: download the [legacy MLX version](https://github.com/MathWorks-Teaching-Resources/Probability-Theory/releases/tag/mlx). The current module uses plain-text live scripts and requires MATLAB R2025a or newer.
 
-[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/100546-probability-theory) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=README.mlx)
+
+[![View on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/100546-probability-theory) or [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=README.m)
 
 [![MATLAB Versions Tested](https://img.shields.io/endpoint?url=https://mathworks-teaching-resources.github.io/Probability-Theory/TestedWith.json)](https://MathWorks-Teaching-Resources.github.io/Probability-Theory)
 
@@ -11,6 +13,8 @@
 _Created with R2024a. Compatible with R2024a and later releases._
 
 # Information
+
+MATLAB R2024b or older: download the [legacy MLX version](https://github.com/MathWorks-Teaching-Resources/Probability-Theory/releases/tag/mlx). The current module uses plain-text live scripts and requires MATLAB R2025a or newer.
 
 This curriculum module contains interactive [MATLAB® live scripts](https://www.mathworks.com/products/matlab/live-editor.html) and supporting files that teach fundamental concepts in probability theory and statistical inference.
 
@@ -29,7 +33,7 @@ Contact the [MathWorks Educator Content Development Team](mailto:onlineteaching@
 
 ## Prerequisites
 
-This module assumes a knowledge of basic concepts in set theory, such as ⋃ (union) and ⋂ (intersection). It also assumes basic fluency in mathematical notation for Σ (summation) and Π (product). Other notation relevant to probability theory is introduced within the module as needed. 
+This module assumes a knowledge of basic concepts in set theory, such as ⋃ (union) and ⋂ (intersection). It also assumes basic fluency in mathematical notation for Σ (summation) and Π (product). Other notation relevant to probability theory is introduced within the module as needed.
 
 
 No coding knowledge is expected. If you want to read the code, it would be helpful to have at least some familiarity with MATLAB, at the level of the [<u>MATLAB Onramp</u>](https://matlabacademy.mathworks.com/details/matlab-onramp/gettingstarted), a free two\-hour introductory course.
@@ -43,32 +47,34 @@ Use the [<img src="Images/OpenInMO.png" width="136" alt="OpenInMO.png">](https:/
 
 ### **On Desktop:**
 
-Download or clone this repository. Open MATLAB, navigate to the folder containing these scripts and double\-click on [Probability.prj](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=README.mlx). It will add the appropriate files to your MATLAB path and open an app that asks you where you would like to start. 
+Download or clone this repository. Open MATLAB, navigate to the folder containing these scripts and double\-click on [Probability.prj](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=README.m). It will add the appropriate files to your MATLAB path and open an app that asks you where you would like to start.
 
 
-Ensure you have all the required products (listed below) installed. If you need to include a product, add it using the Add\-On Explorer. To install an add\-on, go to the **Home** tab and select  <img src="Images/AddOnsIcon.png" width="16" alt="AddOnsIcon.png"> **Add-Ons** > **Get Add-Ons**. 
+Ensure you have all the required products (listed below) installed. If you need to include a product, add it using the Add\-On Explorer. To install an add\-on, go to the **Home** tab and select  <img src="Images/AddOnsIcon.png" width="16" alt="AddOnsIcon.png"> **Add-Ons** > **Get Add-Ons**.
 
 
 ## Products
 
-MATLAB® and the Statistics and Machine Learning Toolbox™ are used throughout. The Image Processing Toolbox™ is used in InferenceBayes.mlx.
+MATLAB® and the Statistics and Machine Learning Toolbox™ are used throughout. The Image Processing Toolbox™ is used in InferenceBayes.m.
 
 # Scripts
-## [**ProbabilityIntro.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=Scripts/ProbabilityIntro.mlx) 
+
+MATLAB R2024b or older: download the [legacy MLX version](https://github.com/MathWorks-Teaching-Resources/Probability-Theory/releases/tag/mlx). The current module uses plain-text live scripts and requires MATLAB R2025a or newer.
+## [**ProbabilityIntro.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=Scripts/ProbabilityIntro.m)
 |      |      |
 | :-- | :-- |
 |  | **In this script, students will...** <br>   |
 | <img src="Images/IntroProbIcon.png" width="171" alt="IntroProbIcon.png"> <br>  | $\bullet$ explain the commonly used terms in probability such as random experiment, random process, trial, event, outcome, countable, equally likely, sample space, mutual independence. <br> $\bullet$ define and compute the classical and empirical probability of events. <br> $\bullet$ explain the limitations and strengths of the subjective, classical, and empirical perspectives of probability. <br> $\bullet$ state and apply Kolmogorov's axioms of probability. <br>   |
 |      |       |
 
-## [**RandomVariables.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=Scripts/RandomVariables.mlx) 
+## [**RandomVariables.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=Scripts/RandomVariables.m)
 |      |      |
 | :-- | :-- |
 |  | **In this script, students will...** <br>   |
 | <img src="Images/centralLimitTheorem.gif" width="171" alt="centralLimitTheorem.gif"> <br>  | $\bullet$ define and create random variables to describe random processes. <br> $\bullet$ generate an empirical distribution of random variables through random sampling. <br> $\bullet$ explain the meaning of expectation and variance for random variables. <br> $\bullet$ explain the difference between continuous and discrete random variables. <br> $\bullet$ identify and use the discrete uniform and continuous normal probability distributions. <br> $\bullet$ define and apply the probability density function and cumulative density function to find the probability of a random variable's value falling within a given interval. <br> $\bullet$ state the Central Limit Theorem and explain its implications for statistical inference. <br>   |
 |      |       |
 
-## [**InferenceBayes.mlx**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=Scripts/InferenceBayes.mlx) 
+## [**InferenceBayes.m**](https://matlab.mathworks.com/open/github/v1?repo=MathWorks-Teaching-Resources/Probability-Theory&project=Probability.prj&file=Scripts/InferenceBayes.m)
 |      |      |
 | :-- | :-- |
 |  | **In this script, students will...** <br>   |
@@ -76,6 +82,8 @@ MATLAB® and the Statistics and Machine Learning Toolbox™ are used throughout.
 |      |       |
 
 # Related Courseware Modules
+
+MATLAB R2024b or older: download the [legacy MLX version](https://github.com/MathWorks-Teaching-Resources/Probability-Theory/releases/tag/mlx). The current module uses plain-text live scripts and requires MATLAB R2025a or newer.
 |      |      |      |
 | :-- | :-- | :-- |
 | **Courseware Module** <br>  | **Sample Content** <br>  | **Available on:** <br>   |
@@ -86,17 +94,23 @@ MATLAB® and the Statistics and Machine Learning Toolbox™ are used throughout.
 Or feel free to explore our other [modular courseware content](https://www.mathworks.com/matlabcentral/fileexchange/?q=tag%3A%22courseware+module%22&sort=downloads_desc_30d).
 
 # Educator Resources
--  [Educator Page](https://www.mathworks.com/academia/educators.html) 
 
-# Contribute 
+MATLAB R2024b or older: download the [legacy MLX version](https://github.com/MathWorks-Teaching-Resources/Probability-Theory/releases/tag/mlx). The current module uses plain-text live scripts and requires MATLAB R2025a or newer.
+-  [Educator Page](https://www.mathworks.com/academia/educators.html)
+
+# Contribute
+
+MATLAB R2024b or older: download the [legacy MLX version](https://github.com/MathWorks-Teaching-Resources/Probability-Theory/releases/tag/mlx). The current module uses plain-text live scripts and requires MATLAB R2025a or newer.
 
 Looking for more? Find an issue? Have a suggestion? Please contact the [MathWorks Educator Content Development Team](mailto:%20onlineteaching@mathworks.com). If you want to contribute directly to this project, you can find information about how to do so in the [CONTRIBUTING.md](https://github.com/MathWorks-Teaching-Resources/Probability-Theory/blob/release/CONTRIBUTING.md) page on GitHub.
 
 # License
 
+MATLAB R2024b or older: download the [legacy MLX version](https://github.com/MathWorks-Teaching-Resources/Probability-Theory/releases/tag/mlx). The current module uses plain-text live scripts and requires MATLAB R2025a or newer.
+
 You can find the [license](https://github.com/MathWorks-Teaching-Resources/Probability-Theory/blob/release/LICENSE.md) for this module on GitHub.
 
 
- *©* Copyright 2025 The MathWorks, Inc
+ *©* Copyright 2025-2026 The MathWorks, Inc
 
 

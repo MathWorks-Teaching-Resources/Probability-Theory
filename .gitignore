@@ -44,8 +44,13 @@ codegen/
 # Cache files
 *.slxc
 
-# Project settings
-Utilities/ProjectSettings.mat
-
-# GitLab page folder
+# Testing and CI related artifact
 public/
+.buildtool/
+ci_utilities/
+
+# AI Tooling
+.playwright-mcp/
+
+# Local project preferences
+Utilities/ProjectSettings.mat
