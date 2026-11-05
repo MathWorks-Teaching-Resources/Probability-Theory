@@ -65,10 +65,10 @@ permissions:
   pages: write
   id-token: write
 
-# Cancel older in-progress runs on the same ref to save CI time.
+# Queue newer runs so an active Pages deployment can finish.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   test-matrix:
@@ -191,6 +191,9 @@ jobs:
     permissions:
       pages: write
       id-token: write
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -198,6 +201,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          # Allow slow Pages publishing beyond the action's 10-minute default.
-          timeout: 1200000
