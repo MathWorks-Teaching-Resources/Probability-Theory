@@ -182,7 +182,22 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
+
+  deploy-pages:
+    name: Deploy reports to GitHub Pages
+    needs: [report-and-deploy]
+    if: ${{ always() && !cancelled() && github.event_name != 'pull_request' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
-        if: ${{ always() && github.event_name != 'pull_request' }}
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # Allow slow Pages publishing beyond the action's 10-minute default.
+          timeout: 1200000
