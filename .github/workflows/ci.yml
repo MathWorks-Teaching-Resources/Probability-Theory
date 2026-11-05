@@ -65,10 +65,10 @@ permissions:
   pages: write
   id-token: write
 
-# Queue newer runs so an active Pages deployment can finish.
+# Cancel older in-progress runs on the same ref to save CI time.
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   test-matrix:
@@ -79,17 +79,10 @@ jobs:
         Releases: [R2026a, R2026b]
     runs-on: ubuntu-latest
     env:
-      MATLAB_PRODUCTS: >
-        Statistics_and_Machine_Learning_Toolbox
-        Image_Processing_Toolbox
-      # List required products above in the format shown (and uncomment them)
-      # Common products:
-      # Simulink
-      # Simscape
-      # Statistics_and_Machine_Learning_Toolbox
-      # Symbolic_Math_Toolbox
-      # Deep_Learning_Toolbox
-      LD_PRELOAD: /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+        MATLAB_PRODUCTS: >
+            Statistics_and_Machine_Learning_Toolbox
+            Image_Processing_Toolbox
+        LD_PRELOAD: /usr/lib/x86_64-linux-gnu/libstdc++.so.6
     steps:
       # Checks-out your repository
       - uses: actions/checkout@v6
@@ -182,22 +175,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
-
-  deploy-pages:
-    name: Deploy reports to GitHub Pages
-    needs: [report-and-deploy]
-    if: ${{ always() && !cancelled() && github.event_name != 'pull_request' }}
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    concurrency:
-      group: github-pages
-      cancel-in-progress: false
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
+        if: ${{ always() && github.event_name != 'pull_request' }}
         id: deployment
         uses: actions/deploy-pages@v4
